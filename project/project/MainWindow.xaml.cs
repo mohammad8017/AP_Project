@@ -24,15 +24,9 @@ namespace project
         {
             InitializeComponent();
 
-            //Timer.Tick += new EventHandler(Timer_Click);
-
-            //Timer.Interval = new TimeSpan(0, 0, 1);
-
-            //Timer.Start();
+            
             DateTime d;
-
             d = DateTime.Now;
-
             label1.Content = d.Hour + " : " + d.Minute + " : " + d.Second;
         }
 
@@ -78,16 +72,26 @@ namespace project
             txt22.Text= DateTime.Now.ToLongTimeString();
         }
 
-        private void Timer_Click(object sender, EventArgs e)
+        //private void Timer_Click(object sender, EventArgs e)
 
+        //{
+
+        //    DateTime d;
+
+        //    d = DateTime.Now;
+
+        //    label1.Content = d.Hour + " : " + d.Minute + " : " + d.Second;
+
+        //}
+
+        private void Btn7_Click(object sender, RoutedEventArgs e)
         {
+            this.Close();
+        }
 
-            DateTime d;
-
-            d = DateTime.Now;
-
-            label1.Content = d.Hour + " : " + d.Minute + " : " + d.Second;
-
+        private void Btn8_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }
