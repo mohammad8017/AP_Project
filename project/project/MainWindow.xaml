@@ -42,7 +42,7 @@
                     <Button x:Name="btn22" Content="Time :" HorizontalAlignment="Left" Height="27" Margin="10,48,0,0" VerticalAlignment="Top" Width="100" FontWeight="Bold" FontSize="16" Background="{x:Null}" BorderBrush="{x:Null}" Click="Btn22_Click" ToolTip="Click to show date"/>
                     <TextBlock x:Name="txt22" HorizontalAlignment="Left" Height="27" Margin="92,53,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100" FontWeight="Bold" FontSize="14" Foreground="#FFCB3838"/>
                     <TextBlock x:Name="txt11" HorizontalAlignment="Left" Height="27" Margin="92,15,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100" FontWeight="Bold" FontSize="14" Foreground="#FFCB3838"/>
-                    <Button x:Name="btn8" Content="EXIT" HorizontalAlignment="Left" Height="42" Margin="145,0,0,10.4" VerticalAlignment="Bottom" Width="125" Background="#FF637DC5" FontWeight="Bold" FontSize="16" Click="Btn8_Click"/>
+                    <Button x:Name="btn8" Content="EXIT" HorizontalAlignment="Left" Height="42" Margin="145,0,0,10.4" VerticalAlignment="Bottom" Width="125" Background="#FF637DC5" FontWeight="Bold" FontSize="16" Click="Btn8_Click" BorderBrush="{x:Null}"/>
                 </Grid>
             </TabItem>
             <TabItem x:Name="tab2" Header="tab 2">
@@ -68,7 +68,7 @@
                     <RadioButton x:Name="rad2" Content="Female" HorizontalAlignment="Left" Height="27" Margin="317,369,0,0" VerticalAlignment="Top" Width="88" FontWeight="Bold" Foreground="#FFCB1D1D"/>
                     <Label  Height="34" HorizontalAlignment="Left" Margin="62,16,0,0" x:Name="label1" VerticalAlignment="Top" Width="122" FontWeight="Bold" FontSize="14" Foreground="#FFCB3838" />
                     <TextBox HorizontalAlignment="Left" Height="34" Margin="10,18,0,0" TextWrapping="Wrap" Text="Time :" VerticalAlignment="Top" Width="107" FontWeight="Bold" FontSize="16" Background="{x:Null}" BorderBrush="{x:Null}"/>
-                    <Button x:Name="btn7" Content="EXIT" HorizontalAlignment="Left" Height="42" Margin="145,0,0,10.4" VerticalAlignment="Bottom" Width="125" Background="#FF637DC5" FontWeight="Bold" FontSize="16" Click="Btn7_Click"/>
+                    <Button x:Name="btn7" Content="EXIT" HorizontalAlignment="Left" Height="42" Margin="145,0,0,10.4" VerticalAlignment="Bottom" Width="125" Background="#FF637DC5" FontWeight="Bold" FontSize="16" Click="Btn7_Click" BorderBrush="{x:Null}"/>
                 </Grid>
             </TabItem>
         </TabControl>
