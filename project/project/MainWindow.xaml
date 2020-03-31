@@ -37,7 +37,7 @@
 
                         </TextBox>
                     </StackPanel>
-                    <Button x:Name="btn5" Content="Next Page" HorizontalAlignment="Left" Height="42" Margin="315,590,0,0" VerticalAlignment="Top" Width="125" Background="#FF637DC5" FontWeight="Bold" FontSize="16" Click="Btn5_Click"/>
+                    <Button x:Name="btn5" Content="Next Page" HorizontalAlignment="Left" Height="42" Margin="315,590,0,0" VerticalAlignment="Top" Width="125" Background="#FF637DC5" FontWeight="Bold" FontSize="16" Click="Btn5_Click" BorderBrush="{x:Null}"/>
                     <Button x:Name="btn11" Content="Date :" HorizontalAlignment="Left" Height="27" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" FontWeight="Bold" FontSize="16" Background="{x:Null}" BorderBrush="{x:Null}" Click="Btn11_Click" ToolTip="Click to show date"/>
                     <Button x:Name="btn22" Content="Time :" HorizontalAlignment="Left" Height="27" Margin="10,48,0,0" VerticalAlignment="Top" Width="100" FontWeight="Bold" FontSize="16" Background="{x:Null}" BorderBrush="{x:Null}" Click="Btn22_Click" ToolTip="Click to show date"/>
                     <TextBlock x:Name="txt22" HorizontalAlignment="Left" Height="27" Margin="92,53,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="100" FontWeight="Bold" FontSize="14" Foreground="#FFCB3838"/>
@@ -61,7 +61,7 @@
                     <StackPanel HorizontalAlignment="Left" Height="108" Margin="176,233,0,0" VerticalAlignment="Top" Width="229" Background="#FF637DC5">
                         <TextBox Margin="10,10,9.8,10" TextWrapping="Wrap" Foreground="#FFA22323" Height="93" RenderTransformOrigin="0.505,0.568" FontSize="16" FontWeight="Bold" Background="#FF637DC5" BorderBrush="#FF637DC5" AcceptsReturn="True"/>
                     </StackPanel>
-                    <Button x:Name="btn6" Content="Previous Page" HorizontalAlignment="Left" Height="42" Margin="315,0,0,10.4" VerticalAlignment="Bottom" Width="125" Background="#FF637DC5" FontWeight="Bold" FontSize="16" Click="Btn6_Click"/>
+                    <Button x:Name="btn6" Content="Previous Page" HorizontalAlignment="Left" Height="42" Margin="315,0,0,10.4" VerticalAlignment="Bottom" Width="125" Background="#FF637DC5" FontWeight="Bold" FontSize="16" Click="Btn6_Click" BorderBrush="{x:Null}"/>
                     <Image x:Name="img1" HorizontalAlignment="Left" Height="148" Margin="145,418,0,0" VerticalAlignment="Top" Width="295" Source="image/4.png"/>
                     <TextBlock HorizontalAlignment="Left" Height="27" Margin="10,364,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192" FontWeight="Bold" TextDecorations="{x:Null}" TextAlignment="Center" FontSize="16"><Run Text="Gender :"/></TextBlock>
                     <RadioButton x:Name="rad1" Content="Male" HorizontalAlignment="Left" Height="27" Margin="176,369,0,0" VerticalAlignment="Top" Width="88" FontWeight="Bold" Foreground="#FFCB1D1D"/>
